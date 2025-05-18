@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary p-lg-5">
+    <div class="container-fluid">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-center text-danger fs-4" aria-current="page" href="#">Mohamed & Rawan</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <div class="home m-5">
+    <div class="container d-flex">
+
+      <div class="card" >
+        <img src="images/1.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text text-center text-danger">My First and End of love</p>
+        </div>
+      </div>
+      <div class="card" >
+        <img src="images/2.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text text-center text-danger">i love you my Soul</p>
+        </div>
+      </div>
+      <div class="card" >
+        <img src="images/3.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text text-center text-danger "> we are always be together to the end </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </div>
+  <div class="container">
+    <div class="video">
+
+      <!-- Button to Open Modal -->
+      <button type="button" class="btn btn-primary m-auto text-center w-100 bg-danger" data-bs-toggle="modal" data-bs-target="#videoModal">
+        Play Video
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="videoModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="videoModalLabel">Watch Video</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <video id="modalVideo" width="100%" controls>
+                <source src="images/video.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+        </div>
+
+   </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

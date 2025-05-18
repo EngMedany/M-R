@@ -1,0 +1,33 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+  font-family: "segue Ui light";
+}
+
+
+.container {
+  width: 90%;
+
+}
+
+.card{
+  width: 33.33%;
+  margin: 10px;
+
+}
+
+.card img{
+  width: 100%;
+}
+
+.card-body p {
+
+  color: red !important ;
+  text-align: center;
+
+
+}
+
